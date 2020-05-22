@@ -1,0 +1,66 @@
+body, html {
+  height: 100%;
+}
+
+.everything {
+  background-image: url("aboutMeBackground.jpg");
+  background-color: white;
+  height: 125%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 925px;
+}
+
+.button {
+  margin-left: 78%;
+}
+
+div h1 {
+  text-align: center;
+  line-height: 385px;
+  color: #404040;
+}
+div h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: -165px;
+}
+div p {
+  font-size: 15px;
+  color: #404040;
+}
+div .text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.SATA, .ConferenceServices, .Hobbies, .website {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 924px;
+  margin-left: 170px;
+}
+
+.website {
+  background-color: #808080;
+  font-size: 17px;
+  margin-top: -50px;
+}
+
+.Hobbies {
+  background-color: #A0A0A0;
+  font-size: 15px;
+}
+
+.ConferenceServices {
+  background-color: #C0C0C0;
+  font-size: 15px;
+}
+
+.SATA {
+  background-color: #E0E0E0;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=aboutMe.css.map */

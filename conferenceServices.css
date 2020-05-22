@@ -1,0 +1,27 @@
+h2, h3, div, ul, ol, .Contents, .logo {
+    text-align: center;
+    list-style: inside;
+}
+
+.row > div {
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}

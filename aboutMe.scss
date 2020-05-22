@@ -1,0 +1,71 @@
+$color: #404040;
+$text-align: center;
+$font-size: 15px;
+
+body, html {
+    height: 100%;
+}
+
+.everything {
+    background-image: url("aboutMeBackground.jpg");
+    background-color: white;
+    height: 125%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 925px;
+}
+
+div {
+    h1 {
+        text-align: $text-align;
+        line-height: 385px;
+        color: $color;
+    }
+    h3 {
+        text-align: $text-align;
+        color: $color;
+        margin-top: -165px;
+    }
+    p {
+        font-size: 15px;
+        color: $color;
+    }
+    .text {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+%text {
+    text-align: center;
+    // font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    width:924px;
+    margin-left: 170px;
+}
+
+.website {
+    @extend %text;
+    background-color: #808080;
+    font-size: 17px;
+    margin-top: -50px;
+}
+
+.Hobbies {
+    @extend %text;
+    background-color: #A0A0A0;
+    font-size: $font-size;
+}
+
+.ConferenceServices {
+    @extend %text;
+    background-color: #C0C0C0;
+    font-size: $font-size;
+}
+
+.SATA{
+    @extend %text;
+    background-color: #E0E0E0;
+    font-size: $font-size;
+}
